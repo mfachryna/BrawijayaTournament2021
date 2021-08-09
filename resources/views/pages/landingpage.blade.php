@@ -1,8 +1,8 @@
 @extends('layouts.frontend')
 
 @push('style')
-<link rel="stylesheet" href="{{url('/frontend/homepage/style/style.css')}}">
-<link rel="stylesheet" href="{{url('/frontend/homepage/style/normalize.css')}}">
+<link rel="stylesheet" href="{{assets('/frontend/homepage/style/style.css')}}">
+<link rel="stylesheet" href="{{assets('/frontend/homepage/style/normalize.css')}}">
 @endpush
 
 @section('title')
@@ -13,7 +13,7 @@ Beranda
 <br><br><br><br><br>
 <header>
 
-    <img src="{{url('/frontend/homepage/images/logonyarloro@2x.jpg')}}" class="img-fluid" alt="Responsive image">
+    <img src="{{assets('/frontend/homepage/images/logonyarloro@2x.jpg')}}" class="img-fluid" alt="Responsive image">
 
 </header>
 
@@ -96,7 +96,7 @@ Beranda
         <div class="section-stiker-1 row justify-content-center">
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="d-flex flex-column">
-                    <img src="{{url('/frontend/homepage/images/phone7.jpg')}}" alt="#" class="phone">
+                    <img src="{{assets('/frontend/homepage/images/phone7.jpg')}}" alt="#" class="phone">
                 </div>
             </div>
 
@@ -109,6 +109,6 @@ Beranda
 @endsection
 
 @push('script')
-<script src="{{url('/frontend/homepage/bootstrap/jquery/jquery-3.5.1.min.js')}}"></script>
-<script src="{{url('/frontend/homepage/bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{assets('/frontend/homepage/bootstrap/jquery/jquery-3.5.1.min.js')}}"></script>
+<script src="{{assets('/frontend/homepage/bootstrap/js/bootstrap.js')}}"></script>
 @endpush
