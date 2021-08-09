@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+app/Http/Controllers/.fuse_hidden00008aed00000005
+app/Http/Controllers/.fuse_hidden00008af200000006
+
+bt_laravel.zip
+/public/public.zip

@@ -1,0 +1,183 @@
+
+.utama {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #991ED0;
+    font-size: 12px;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    filter: drop-shadow(0px 20px 10px rgba(48, 48, 48, 0.16));
+    border-bottom: 3px solid #991ED0;
+}
+.utam {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: transparent;
+    filter: drop-shadow(0px 20px 10px rgba(48, 48, 48, 0.16));
+}
+.nav-link {
+
+    color: white;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+    margin: 0;
+}
+
+header {
+
+    margin-top: -130px;
+}
+
+
+.judul {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+/*awal awal*/
+
+
+
+.konten {
+    width: 915px;
+    height: auto;
+    border-radius: 10px;
+    padding: 24px;
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    box-shadow: 0px 20px 10px rgba(48, 48, 48, 0.16);
+}
+
+.teks {
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+/*bagian our event*/
+.ourevent{
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    margin-bottom: 20px;
+}
+.section-ourevent-heading {
+    margin-top: 30px;
+}
+
+.head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.jumbotron {
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    color: #fff;
+
+}
+
+/*kartu image*/
+.card-our {
+    min-height: 380px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    background-size: cover;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.stik {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*bagian stiker*/
+
+.phone {
+    max-height: 450px;
+}
+
+.daftaran{
+    
+}
+
+.tombol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    margin-top: 190px;
+    border-radius: 15px;
+    border-style: none;
+    width: 250px;
+}
+
+
+
+/*Bagian partners*/
+.parts {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.garis {
+    width: 1100px;
+    height: 534px;
+    border-radius: 25px;
+    background: #fff;
+    border: 5px solid #791cd5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+.main-foot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303030;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffff;
+}
+
+.bawah{
+    color: #fff;
+   
+}
+footer{
+    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    margin-bottom: 0px;
+}

@@ -1,0 +1,22 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+* {
+    font-family: "Nunito", "sans-serif";
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #f8f8f8 !important;
+}
+
+@import "./admin.scss";
+@import "./user.scss";

@@ -1,0 +1,64 @@
+.user .container__ {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    .sidebar {
+        background-color: white;
+        min-height: 100vh;
+        min-width: 230px;
+        padding: 30px 8px;
+        box-sizing: border-box;
+        .profile {
+            margin-bottom: 28px;
+            .name {
+                text-align: center;
+                margin: 0;
+                font-size: 1.5em;
+                margin-bottom: 8px;
+                word-wrap: break-word;
+                width: 200px;
+                max-height: 51px;
+                overflow: hidden;
+            }
+            p {
+                text-align: center;
+                margin: 0;
+            }
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+
+            .label {
+                font-size: 0.8em;
+                color: #b1b1b1;
+                margin-left: 8px;
+            }
+
+            .menu-item {
+                margin-top: 4px;
+                margin-bottom: 8px;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                    cursor: pointer;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    transition: all 0.5s;
+                    &:hover {
+                        background-color: #ececec;
+                    }
+                }
+
+                a.router-link-exact-active {
+                    background-color: #ececec;
+                }
+            }
+        }
+    }
+
+    .info__ .ivu-upload-select {
+        display: block !important;
+    }
+}
