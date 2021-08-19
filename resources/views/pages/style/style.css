@@ -9,9 +9,9 @@
     overflow: visible;
     width: auto;
     height: auto;
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: linear-gradient(90deg,#7ccfef 50%, #ff5255 100%);
     filter: drop-shadow(0px 20px 10px rgba(48, 48, 48, 0.16));
-    border-bottom: 3px solid #991ED0;
+    border-bottom: 3px solid #05aeff;
 }
 .utam {
     position: relative;
@@ -65,9 +65,21 @@ body {
      font-size: 50px;
 
 }
-span { color:#D054CE;
+span { color:#ffffff;
+    font-family: Tahoma;
 font-weight: bolder;}
 /*awal awal*/
+
+.braw{
+    color: #05aeff;
+    display: inline;
+    text-shadow: 3px 4px 5px #000 inset;
+}
+
+.tour{
+    color: #ff5255;
+    display: inline;
+}
 
 .konten {
     width: 915px;
@@ -93,7 +105,7 @@ font-weight: bolder;}
   padding-bottom: 7%;
   padding-left: 5%;
   padding-right: 5%;
-  border-bottom: 5px solid #791cd5;
+  border-bottom: 5px solid;
 }
 
 .col-6{
@@ -173,7 +185,7 @@ padding-bottom: 10%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
 padding-left: 5%;
-    background: linear-gradient(-20deg,#ae3475 -95%, #1b073a 80%);
+    background: linear-gradient(90deg,#7ccfef 50%, #ff5255 100%);
     color: white;
 }
 .penjelasan{
@@ -182,7 +194,7 @@ padding-left: 5%;
   padding-bottom: 7%;
   padding-left: 5%;
   padding-right: 5%;
-  border-bottom: 5px solid #791cd5;
+  border-bottom: 5px solid #05aeff;
 }
 
 .col-6{
@@ -258,7 +270,7 @@ padding-bottom: 10%;
 }
 .partners{
   background-color: white;
-  border-bottom: 5px solid #791cd5;
+  border-bottom: 5px solid #05aeff;
 
 }
 .garis {
@@ -285,7 +297,7 @@ padding-bottom: 10%;
 
 footer{
 height: 100%;
-background: linear-gradient(-20deg,#ae3475 -95%, #1b073a 80%);
+background: linear-gradient(90deg,#7ccfef 50%, #ff5255 100%);
 
 }
 .medsos{
@@ -353,7 +365,21 @@ a{
 
 
 .gambar {
-  padding-left: 30%;
+  padding-left: 15%;
+  padding-bottom: 50%;
+  height: 700px;
 }
 
+footer img {
+    width: 300px;
+}
 
+.cita {
+    display: inline;
+    color: #05aeff;
+}
+
+.juara{
+    display: inline;
+    color: #ff5255;
+}
