@@ -9,9 +9,9 @@
     overflow: visible;
     width: auto;
     height: auto;
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: linear-gradient(90deg,#7ccfef 30%, #FF5255 100%);
     filter: drop-shadow(0px 20px 10px rgba(48, 48, 48, 0.16));
-    border-bottom: 3px solid #991ED0;
+    border-bottom: 3px solid #05aeff;
 }
 .utam {
     position: relative;
@@ -34,8 +34,19 @@ body {
 }
 
 header {
+    margin-top: -100px;
+    text-align : center;
+    background: linear-gradient(90deg,#7ccfef 30%, #FF5255 100%);
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 5px solid #05aeff;
+}
 
-    margin-top: -130px;
+.img-fluid {
+    height: 700px;
 }
 
 
@@ -45,11 +56,9 @@ header {
     margin-bottom: 50px;
     font-size: 36px;
     font-weight: bold;
-
 }
 
 /*awal awal*/
-
 
 
 .konten {
@@ -57,7 +66,7 @@ header {
     height: auto;
     border-radius: 10px;
     padding: 24px;
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: #FF5255;
     box-shadow: 0px 20px 10px rgba(48, 48, 48, 0.16);
 }
 
@@ -68,7 +77,8 @@ header {
 
 /*bagian our event*/
 .ourevent{
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: url('Card\ -\ Our\ Event.jpeg');
+    background-size: cover;
     margin-bottom: 20px;
 }
 .section-ourevent-heading {
@@ -87,15 +97,14 @@ header {
     margin-bottom: 30px;
 }
 .jumbotron {
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: #ada7ff;
     color: #fff;
-
 }
 
 /*kartu image*/
 .card-our {
     min-height: 380px;
-    background-color: #000;
+/*    background-color: #000; */
     color: #fff;
     padding: 30px;
     background-size: cover;
@@ -119,10 +128,6 @@ header {
     max-height: 450px;
 }
 
-.daftaran{
-    
-}
-
 .tombol {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #303030;
@@ -130,7 +135,7 @@ header {
     font-size: 28px;
     font-weight: bold;
     padding: 20px;
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: linear-gradient(90deg,#7ccfef 30%, #ff5255 100%);
     margin-top: 190px;
     border-radius: 15px;
     border-style: none;
@@ -158,7 +163,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-
 }
 
 .main-foot{
@@ -178,6 +182,20 @@ header {
    
 }
 footer{
-    background: linear-gradient(90deg,#1b073a 50%, #ae3475 100%);
+    background: linear-gradient(90deg,#7ccfef 30%, #FF5255 100%);
     margin-top: 200px;
+}
+
+footer img{
+    height: 300px;
+}
+
+.cita {
+    display: inline;
+    color: #05aeff;
+}
+
+.juara{
+    display: inline;
+    color: #ff5255;
 }
