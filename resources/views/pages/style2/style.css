@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#ae3475 40%, #1b073a 80%);
+    background: white;
     color: white;
 
 }
@@ -129,4 +129,5 @@ header {
 footer{
      background: linear-gradient(#1b073a 0%, #ae3475 100%);
     margin-top: 0px;
+    color: white;
 }
